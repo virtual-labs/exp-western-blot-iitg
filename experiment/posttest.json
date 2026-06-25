@@ -2,37 +2,173 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What is the purpose of blocking in Western blotting?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "To transfer proteins",
+        "b": "To stain proteins",
+        "c": "To prevent non-specific antibody binding",
+        "d": "To denature proteins"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Blocking does not aid in the transfer of proteins; this is done during the electro-transfer step.",
+        "b": "Blocking does not stain proteins. Total protein staining on membrane is done using dyes like Ponceau S.",
+        "c": "Blocking agents like BSA or milk proteins bind to open spaces on the membrane, preventing the detection antibodies from binding non-specifically to the membrane itself.",
+        "d": "Proteins are already denatured before loading onto the gel; blocking is a post-transfer step that does not denature proteins."
       },
-      "correctAnswer": "a",
+      "correctAnswer": "c",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Which sample can be used for detecting viral proteins by Western blot?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Infected cell lysate",
+        "b": "Serum",
+        "c": "Recombinant protein",
+        "d": "All of the above"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Infected cell lysates contain viral proteins expressed during the replication cycle, which can be analyzed.",
+        "b": "Serum samples can contain viral antigens (proteins) circulating in the bloodstream during active infection.",
+        "c": "Recombinant proteins expressed in laboratory systems (like E. coli or insect cells) are frequently validated using Western blotting.",
+        "d": "All of these sample types (infected cell lysate, serum, recombinant protein) contain proteins and can be analyzed by Western Blotting."
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which antibody binds directly to the viral protein?",
+      "answers": {
+        "a": "Secondary antibody",
+        "b": "Blocking antibody",
+        "c": "Primary antibody",
+        "d": "Control antibody"
+      },
+      "explanations": {
+        "a": "The secondary antibody binds to the host species of the primary antibody, not directly to the target viral protein.",
+        "b": "There is no such thing as a blocking antibody; blocking uses proteins like BSA or milk casein.",
+        "c": "The primary antibody is designed to bind specifically to the target epitope of the viral protein (antigen).",
+        "d": "Control antibodies (like loading controls) bind to internal reference proteins (such as GAPDH), not the target viral protein."
       },
       "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which enzyme is commonly conjugated to the secondary antibody?",
+      "answers": {
+        "a": "DNA polymerase",
+        "b": "Alkaline phosphatase or HRP",
+        "c": "Ligase",
+        "d": "RNase"
+      },
+      "explanations": {
+        "a": "DNA polymerase is used to synthesize DNA, not for signal detection in Western Blotting.",
+        "b": "Horseradish peroxidase (HRP) and alkaline phosphatase (AP) are the standard enzymes conjugated to secondary antibodies for chemiluminescent or colorimetric detection.",
+        "c": "Ligase is a DNA repair/joining enzyme, not used for immunodetection.",
+        "d": "RNase degrades RNA, not used in immunodetection."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Why are proteins heated with sample buffer before SDS-PAGE?",
+      "answers": {
+        "a": "To increase concentration",
+        "b": "To renature proteins",
+        "c": "To denature proteins completely",
+        "d": "To stain proteins"
+      },
+      "explanations": {
+        "a": "Heating does not increase the concentration of the protein samples.",
+        "b": "Heating disrupts the tertiary structures; it denatures rather than renatures proteins.",
+        "c": "Heating at 95°C in the presence of SDS and reducing agents fully denatures, linearizes, and coats proteins so that they resolve solely by molecular weight.",
+        "d": "Heating is not used to stain proteins; staining occurs after gel running or transfer."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Why is PVDF membrane soaked in methanol before use?",
+      "answers": {
+        "a": "To sterilize the membrane",
+        "b": "To activate and wet the membrane",
+        "c": "To stain proteins",
+        "d": "To block antibodies"
+      },
+      "explanations": {
+        "a": "Methanol acts as a wetting agent, not primarily for sterilization, as the system is not sterile.",
+        "b": "PVDF is highly hydrophobic and cannot be wet by aqueous buffers. Soaking in methanol hydrates (activates) the PVDF membrane so it can bind proteins.",
+        "c": "Methanol does not stain proteins.",
+        "d": "Methanol does not block antibodies; blocking is done later using milk or BSA."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which step ensures specificity of detection?",
+      "answers": {
+        "a": "SDS-PAGE",
+        "b": "Blocking",
+        "c": "Primary antibody binding",
+        "d": "Transfer"
+      },
+      "explanations": {
+        "a": "SDS-PAGE separates proteins by size, but multiple different proteins can have the same molecular weight.",
+        "b": "Blocking prevents background noise but doesn't target the specific protein.",
+        "c": "The specific antigen-binding site of the primary antibody target-matches only the protein of interest, ensuring detection specificity.",
+        "d": "Electro-transfer is a non-specific movement of all proteins onto the membrane."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What does the appearance of a band at expected size indicate?",
+      "answers": {
+        "a": "DNA contamination",
+        "b": "Non-specific binding",
+        "c": "Presence of target viral protein",
+        "d": "Protein degradation"
+      },
+      "explanations": {
+        "a": "Western blots do not detect DNA, as DNA does not bind primary antibodies.",
+        "b": "Non-specific binding typically shows up as multiple random bands or uniform smear, not a clean band at the expected size.",
+        "c": "A distinct band at the expected molecular weight indicates successful detection and presence of the target viral protein.",
+        "d": "Protein degradation typically leads to multiple smaller bands, a smear, or a complete absence of the expected band."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Why are multiple washing steps required after antibody incubation?",
+      "answers": {
+        "a": "To remove bound antibody",
+        "b": "To remove unbound antibody",
+        "c": "To enhance transfer",
+        "d": "To stain proteins"
+      },
+      "explanations": {
+        "a": "We want to keep specifically bound antibodies attached to the target protein, not remove them.",
+        "b": "Washing with TBST washes away excess, weakly or non-specifically bound antibodies (primary/secondary) to prevent high background signals.",
+        "c": "Transfer is already complete before antibody incubation begins.",
+        "d": "Washing does not stain proteins; it clears background noise."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Western blot is considered semi-quantitative because:",
+      "answers": {
+        "a": "It measures exact protein concentration",
+        "b": "Band intensity reflects relative protein amount",
+        "c": "It amplifies proteins",
+        "d": "It detects nucleic acids"
+      },
+      "explanations": {
+        "a": "It cannot measure exact absolute concentration unless calibrated with a highly pure, known standard curve.",
+        "b": "The relative intensity of the chemiluminescent or colorimetric signal/band correlates with the amount of target protein, allowing relative comparison.",
+        "c": "Western blot does not replicate or amplify proteins.",
+        "d": "Western blot detects proteins, not nucleic acids."
+      },
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]

@@ -2,35 +2,171 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Western blot is used to detect:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "DNA",
+        "b": "RNA",
+        "c": "Proteins",
+        "d": "Lipids"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "DNA is detected by Southern Blotting, not Western Blotting.",
+        "b": "RNA is detected by Northern Blotting, not Western Blotting.",
+        "c": "Western Blot is specifically used to detect and quantify proteins in complex samples.",
+        "d": "Lipids are generally analyzed using chromatography or mass spectrometry, not Western Blotting."
       },
-      "correctAnswer": "a",
+      "correctAnswer": "c",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Western blot analysis is based on which technique for protein separation?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Agarose gel electrophoresis",
+        "b": "SDS-PAGE",
+        "c": "Isoelectric focusing",
+        "d": "Thin layer chromatography"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Agarose gel electrophoresis is typically used for DNA or RNA separation, not protein separation in Western Blot.",
+        "b": "SDS-PAGE separates proteins based on molecular weight, which is the foundational separation step for Western Blotting.",
+        "c": "Isoelectric focusing separates proteins based on their charge (isoelectric point), not primarily size/molecular weight as used in standard Western Blotting.",
+        "d": "Thin layer chromatography is used for separating non-volatile mixtures, not proteins."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "SDS in SDS-PAGE is used to:",
+      "answers": {
+        "a": "Add positive charge to proteins",
+        "b": "Maintain native structure",
+        "c": "Denature proteins and give uniform negative charge",
+        "d": "Stain proteins"
+      },
+      "explanations": {
+        "a": "SDS is an anionic detergent, meaning it imparts a negative charge, not a positive charge.",
+        "b": "SDS denatures proteins, destroying their native tertiary and secondary structure.",
+        "c": "SDS denatures proteins and coats them to provide a uniform negative charge-to-mass ratio so migration is based purely on molecular weight.",
+        "d": "Staining proteins is done using dyes like Coomassie Blue, not SDS."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Proteins in Western blot are transferred onto which membrane?",
+      "answers": {
+        "a": "Nylon",
+        "b": "Cellulose",
+        "c": "PVDF or nitrocellulose",
+        "d": "Agarose"
+      },
+      "explanations": {
+        "a": "Nylon membranes are commonly used in Southern and Northern blotting, but less commonly in Western blotting due to high background binding.",
+        "b": "Cellulose lacks the protein-binding capacity required; modified nitrocellulose or PVDF is used instead.",
+        "c": "PVDF (Polyvinylidene difluoride) and nitrocellulose membranes are the standard solid supports used for protein transfer in Western Blotting.",
+        "d": "Agarose is a gel matrix used for separation, not a transfer membrane."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Detection in Western blot is based on:",
+      "answers": {
+        "a": "DNA amplification",
+        "b": "Antigen-antibody interaction",
+        "c": "Cell lysis",
+        "d": "Protein digestion"
+      },
+      "explanations": {
+        "a": "DNA amplification is the basis of PCR, not Western Blotting.",
+        "b": "Western Blot uses highly specific antibodies to detect target proteins (antigens) bound to the membrane.",
+        "c": "Cell lysis is a sample preparation step, not the detection mechanism.",
+        "d": "Protein digestion is used in mass spectrometry, while Western blotting detects intact proteins."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Molecular weight of proteins is estimated using:",
+      "answers": {
+        "a": "DNA ladder",
+        "b": "RNA ladder",
+        "c": "Protein marker",
+        "d": "ELISA plate"
+      },
+      "explanations": {
+        "a": "DNA ladders are used to estimate the size of DNA fragments in agarose gels.",
+        "b": "RNA ladders are used to estimate the size of RNA molecules.",
+        "c": "A pre-stained protein molecular weight marker (or ladder) is run alongside samples to estimate protein sizes.",
+        "d": "ELISA plates are used for enzyme-linked immunosorbent assays, not for molecular weight estimation via migration."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which control is important to confirm equal protein loading?",
+      "answers": {
+        "a": "Negative control",
+        "b": "Molecular weight marker",
+        "c": "Loading control (β-actin/GAPDH)",
+        "d": "Blank control"
+      },
+      "explanations": {
+        "a": "A negative control checks for non-specific binding, not equal sample loading.",
+        "b": "A molecular weight marker helps identify protein size, not concentration loading equality.",
+        "c": "Loading controls like beta-actin or GAPDH are housekeeping proteins expressed at constant levels, used to verify equal protein loading across wells.",
+        "d": "Blank controls check for background noise, not loading variation."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the primary purpose of SDS-PAGE before Western blotting?",
+      "answers": {
+        "a": "To transfer proteins",
+        "b": "To separate proteins based on size",
+        "c": "To detect proteins",
+        "d": "To amplify proteins"
+      },
+      "explanations": {
+        "a": "Electro-transfer is a separate step that occurs after SDS-PAGE.",
+        "b": "SDS-PAGE is used to resolve and separate individual proteins within a complex mixture based on their molecular weight (size).",
+        "c": "Detection is done on the membrane using antibodies, not during SDS-PAGE.",
+        "d": "Western blotting does not amplify proteins; it only separates and detects existing proteins."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which component in sample buffer helps break disulfide bonds in proteins?",
+      "answers": {
+        "a": "SDS",
+        "b": "Tris",
+        "c": "β-mercaptoethanol (or DTT)",
+        "d": "Glycine"
+      },
+      "explanations": {
+        "a": "SDS denatures proteins but does not break covalent disulfide bonds.",
+        "b": "Tris is a buffer used to maintain pH.",
+        "c": "Reducing agents like beta-mercaptoethanol or dithiothreitol (DTT) cleave disulfide bonds to fully denature and linearize proteins.",
+        "d": "Glycine is an amino acid used in the running buffer to carry current, not to break disulfide bonds."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What type of samples are typically used for Western blot analysis?",
+      "answers": {
+        "a": "DNA samples only",
+        "b": "RNA samples only",
+        "c": "Protein extracts from cells or tissues",
+        "d": "Lipid extracts"
+      },
+      "explanations": {
+        "a": "DNA is analyzed using Southern blotting or PCR.",
+        "b": "RNA is analyzed using Northern blotting or RT-qPCR.",
+        "c": "Western blot analysis is performed on protein extracts isolated from cells, tissues, cell supernatants, or body fluids.",
+        "d": "Lipids are analyzed using other biochemical separation techniques like thin-layer chromatography."
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
