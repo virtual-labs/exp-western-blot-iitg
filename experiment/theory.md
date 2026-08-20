@@ -9,3 +9,7 @@ After transfer, the membrane is blocked using a solution of bovine serum albumin
 Detection is achieved by adding an appropriate substrate that reacts with the enzyme to produce a colorimetric, chemiluminescent, or fluorescent signal. The presence of a distinct band at the expected molecular weight confirms the viral protein's presence in the sample. The band intensity provides a semi-quantitative measure of protein expression.
 
 Western blotting is a sensitive and specific technique and is widely used for viral protein characterization, confirmation of viral infection, validation of recombinant protein expression, and evaluation of immune responses in research and diagnostic applications.
+
+SDS is an anionic detergent that denatures proteins and imparts a uniform negative charge, allowing proteins to migrate through the gel primarily according to size [2].
+
+Record the appearance of protein bands at the expected molecular weight [3].

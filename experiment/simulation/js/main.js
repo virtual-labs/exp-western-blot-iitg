@@ -3,103 +3,103 @@ document.addEventListener('DOMContentLoaded', () => {
     const steps = [
         {
             src: './images/1.mp4',
-            caption: 'Step 1: Collect the virus-infected cell lysate in a microcentrifuge tube.'
+            caption: 'Step 1: Dispose of the media in the petri dish into a beaker'
         },
         {
             src: './images/2.mp4',
-            caption: 'Step 2: Add an appropriate volume of protein lysis buffer containing SDS and reducing agent to the lysate.'
+            caption: 'Step 2: Wash the cells in the petri dish with PBS twice'
         },
         {
             src: './images/3.mp4',
-            caption: 'Step 3: Mix the sample gently by pipetting or vortexing to ensure complete lysis and uniform distribution of sample components.'
+            caption: 'Step 3: Add PBS and scrape the dish, then collect the virus-infected cell lysate, and store it on ice after centrifuging it'
         },
         {
             src: './images/4.mp4',
-            caption: 'Step 4: Heat the protein samples at 95 °C for 10 minutes in a heating block to denature the protein structure.'
+            caption: 'Step 4: Dispose of the buffer in the flask and mix the marker into the vial. Heat the protein samples at 95 °C to denature the protein structure.'
         },
         {
             src: './images/5.mp4',
-            caption: 'Step 5: Immediately place the heated samples on ice to cool and preserve denatured states.'
+            caption: 'Step 5: Centrifuge the heated protein sample'
         },
         {
             src: './images/6.mp4',
-            caption: 'Step 6: Centrifuge the denatured cell lysate at 12,000g for 5 minutes at 4 °C to pellet cellular debris.'
+            caption: 'Step 6: Assemble the casting frame, then lock and mount the Gasket.'
         },
         {
             src: './images/7.mp4',
-            caption: 'Step 7: Collect the supernatant containing denatured viral proteins and place on ice before loading.'
+            caption: 'Step 7: Add the Resolving gel to the Gasket. Add a layer of Isopropanol and dispose of it after the gel has solidified.'
         },
         {
             src: './images/8.mp4',
-            caption: 'Step 8: Clean glass plates with ethanol, dry, and assemble the SDS-PAGE gel plates and casting frame.'
+            caption: 'Step 8: Wash with water and dispose of the excess water. Add the stacking gel, then carefully insert the comb into the gasket.'
         },
         {
             src: './images/9.mp4',
-            caption: 'Step 9: Pour the prepared resolving gel monomer solution into the glass plate cassette.'
+            caption: 'Step 9: Remove the holder, then remove the gasket. Assemble the gasket and lock the assembly.'
         },
         {
             src: './images/10.mp4',
-            caption: 'Step 10: Overlay resolving gel with isopropanol or water to prevent oxidation and ensure a flat gel interface.'
+            caption: 'Step 10: Transfer the Assembly into the Tank and Add  Transfer Buffer to the Assembly'
         },
         {
             src: './images/11.mp4',
-            caption: 'Step 11: After resolving gel polymerizes, pour off the overlay and pour the stacking gel solution.'
+            caption: 'Step 11: Add the Transfer Buffer to the Tank and Take the Comb out carefully. Load the marker and samples and run the gel.'
         },
         {
             src: './images/12.mp4',
-            caption: 'Step 12: Insert the clean well-forming comb into the stacking gel and allow it to polymerize fully.'
+            caption: 'Step 12: Carefully remove the Gel cassette'
         },
         {
             src: './images/13.mp4',
-            caption: 'Step 13: Remove the comb and assemble the gel cassette inside the electrophoresis chamber tank.'
+            caption: 'Step 13: Scrape the Wells carefully. Soak the Nitrocellulose membrane and the blotting sheets in the Transfer Buffer.'
         },
         {
             src: './images/14.mp4',
-            caption: 'Step 14: Fill the inner and outer buffer chambers with 1X SDS-PAGE running buffer.'
+            caption: 'Step 14: Transfer the Nitrocellulose sheet to the base of the transfer unit'
         },
         {
             src: './images/15.mp4',
-            caption: 'Step 15: Carefully load a pre-stained protein molecular weight marker into the first designated well.'
+            caption: 'Step 15: Align the Gel over the Nitrocellulose membrane'
         },
         {
             src: './images/16.mp4',
-            caption: 'Step 16: Load the denatured protein samples into the subsequent wells using a micropipette.'
+            caption: 'Step 16: Cover the gel with the soaking sheets and use a roller to ensure complete contact with the membrane surface. Set up the Power Blotter.'
         },
         {
             src: './images/17.mp4',
-            caption: 'Step 17: Connect electrodes to the power supply and run at constant voltage until the dye front reaches the bottom.'
+            caption: 'Step 17: Take the Membrane out of the Powerblotter and transfer it to the container, and wash with TBST'
         },
         {
             src: './images/18.mp4',
-            caption: 'Step 18: Disassemble the gel cassette, remove the gel, and cut the PVDF membrane to fit.'
+            caption: 'Step 18: Wash the nitrocellulose paper  with 1x TBST twice'
         },
         {
             src: './images/19.mp4',
-            caption: 'Step 19: Activate the PVDF membrane by soaking it in 100% methanol for 15-30 seconds.'
+            caption: 'Step 19: Block the membrane by adding Blocking Buffer and putting on a slow rocker for 2 hours'
         },
         {
             src: './images/20.mp4',
-            caption: 'Step 20: Equilibrate the activated PVDF membrane, gel, filter papers, and sponges in transfer buffer.'
+            caption: 'Step 20: Wash the membrane with TBST in a Fast Wash twice'
         },
         {
             src: './images/21.mp4',
-            caption: 'Step 21: Assemble the transfer sandwich: sponge, filter paper, gel, membrane, filter paper, sponge, and close cassette.'
+            caption: 'Step 21: Primary Antibody Incubation at 4°C  overnight on a slow rocker'
         },
         {
             src: './images/22.mp4',
-            caption: 'Step 22: Place the transfer cassette into the transfer tank and run the electro-transfer at recommended conditions.'
+            caption: 'Step 22: Secondary Antibody incubation  for 2 hours on a slow rocker'
         },
         {
             src: './images/23.mp4',
-            caption: 'Step 23: Block the membrane in 5% skimmed milk or BSA in TBST for 1 hour at room temperature to prevent non-specific binding.'
+            caption: 'Step 23: ECL reagent preparation in a dark room'
         },
         {
             src: './images/24.mp4',
-            caption: 'Step 24: Incubate the membrane with primary antibody specific to the viral protein for 1-2 hours at RT or overnight at 4 °C.'
+            caption: 'Step 24: Transfer the Blot into a black box and completely cover the Blot surface with Luminol. Then place the blot in the gel doc.'
         },
         {
             src: './images/25.mp4',
-            caption: 'Step 25: Wash the membrane 3 times with TBST, incubate with enzyme-conjugated secondary antibody (1 hour), wash again, add substrate, and detect bands.'
+            caption: 'Step 25: Visualise the blot and detect the bands.'
         }
     ];
 
