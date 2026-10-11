@@ -21,4 +21,4 @@
 - Observe the signal using a gel documentation system.
 - Record the appearance of protein bands at the expected molecular weight [2].
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kizdKYZTle0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width: 100%; display: block; margin: 20px auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);"></iframe>
+<iframe width="280" height="500" src="https://www.youtube.com/embed/kizdKYZTle0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width: 100%; width: 280px; height: 500px; aspect-ratio: 9/16; display: block; margin: 20px auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);"></iframe>
